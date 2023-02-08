@@ -1,0 +1,21 @@
+summary {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin: 2px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+summary:hover {
+  background-color: #ccc;
+}
+
+p {
+  margin-left: 2px;
+}
