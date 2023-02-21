@@ -23,10 +23,11 @@ summary {
 
 summary:hover {
   background-color: #ccc;
+  /* font-weight: bold; */
 }
 
 p {
-  margin-left: 2px;
+  margin-left: 24px;
 }
 
 img {
