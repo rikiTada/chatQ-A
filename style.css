@@ -1,5 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 20px;
 }
 
 summary {
@@ -8,12 +9,15 @@ summary {
   cursor: pointer;
   padding: 18px;
   margin: 2px 0;
-  width: 100%;
+  /* width: 100%; */
   border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
+
+  --clay-shadow-inset-primary: 0;
+  --clay-border-radius: 25px;
 }
 
 summary:hover {
@@ -23,3 +27,23 @@ summary:hover {
 p {
   margin-left: 2px;
 }
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  /* clay.cssのプロパティを上書き */
+  --clay-background: #f76d6d;
+  --clay-border-radius: 48px;
+
+  /* 拡張スタイル */
+  color: #f1f1f1;
+  padding: 48px;
+}
+
+/* --clay-background
+--clay-border-radius
+--clay-shadow-outset
+--clay-shadow-inset-primary
+--clay-shadow-inset-secondary */
