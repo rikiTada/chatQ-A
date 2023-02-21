@@ -1,5 +1,6 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 游ゴシック;
   margin: 0 20px;
 }
 
@@ -42,8 +43,10 @@ img {
   padding: 48px;
 }
 
-/* --clay-background
+/*clayプロパティ一覧
+ --clay-background
 --clay-border-radius
 --clay-shadow-outset
 --clay-shadow-inset-primary
---clay-shadow-inset-secondary */
+--clay-shadow-inset-secondary 
+*/
