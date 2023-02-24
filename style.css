@@ -2,6 +2,8 @@ body {
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   font-family: 游ゴシック;
   margin: 0 20px;
+  color: #444;
+
 }
 
 summary {
@@ -51,3 +53,28 @@ img {
 --clay-shadow-inset-primary
 --clay-shadow-inset-secondary 
 */
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #444;
+  max-width: 100%;
+  margin-left: 24px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #444;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #ccc;
+}
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+td {
+  border: 1px solid #444;
+}
