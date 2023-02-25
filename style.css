@@ -3,7 +3,7 @@ body {
   font-family: 游ゴシック;
   margin: 0 20px;
   color: #444;
-
+  letter-spacing: normal;
 }
 
 summary {
@@ -61,7 +61,8 @@ table {
   margin-left: 24px;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 8px;
 }
